@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Fira', sans-serif;;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -63,14 +66,16 @@ header{
 }
 .inter__main{
     font-size: 40px;
-    color: purple;
+    /*color: purple;*/
+    color: black;
     margin-left: 30px;
     margin-bottom: 30px;
 }
 
 .inter p {
     font-size: 30px;
-    color:blueviolet;
+    /*color:blueviolet;*/
+    color: black;
     margin-left: 55px;
     margin-right: 30px;
     margin-bottom: 10px;
@@ -212,4 +217,11 @@ footer {
 .SibFU{
     font-size: 30px;
 
+}
+
+@font-face {
+    font-family: "Fira";
+    font-weight: 700;
+    font-style: normal;
+    src: url(/font/FiraSans-Medium.ttf) format("truetype");
 }
