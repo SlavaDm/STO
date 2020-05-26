@@ -23,13 +23,14 @@ header{
 }
 
 .topnav{
-
     font-size: 20px;
     position: relative;
     margin-top: 17px;
     margin-left: calc((100vw - 1000px)/2.8 + 10px);
 }
-
+.topnav a:hover{
+    color: gray;
+}
 .topnav a{
     margin: 0px 10px;
     padding: 0px 3px;
@@ -213,14 +214,15 @@ footer {
     display: inline-block;
     margin-top: 50px;
     font-size: 50px;
-    /*margin-bottom: 10px;*/
-
 }
 .SibFU{
     font-size: 30px;
-
 }
 
+
+footer a:hover{
+    color:gray;
+}
 @font-face {
     font-family: "Fira";
     font-weight: 700;
