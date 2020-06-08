@@ -357,4 +357,19 @@ footer a:hover{
     footer{
         height: 160px;
     }
+
+
+    .inter__main{
+
+        margin-left: 35px;
+    }
+    .inter p {
+        /*color:blueviolet;*/
+        color: black;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .dop{
+        margin-left: 45px;
+    }
 }
