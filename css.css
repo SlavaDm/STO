@@ -16,7 +16,7 @@ canvas {
 #particles-js {
     /*position: absolute;*/
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url("2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,4 +275,82 @@ footer a:hover{
     font-weight: 700;
     font-style: normal;
     src: url(/font/FiraSans-Medium.ttf) format("truetype");
+}
+
+
+@media screen and (max-width: 1300px){
+    .topnav{
+        display: none;
+    }
+
+    .name{
+        width: 100%;
+        text-align: center;
+        margin: 17px 0;
+        padding-left: 0;
+    }
+
+    .for_student{
+        font-size: 30px;
+    }
+
+    .inter__main {
+        font-size: 25px;
+    }
+
+    .inter p {
+        font-size: 20px;
+    }
+
+    .dop p{
+        font-size: 19px;
+    }
+
+    .autors__text{
+        font-size: 20px;
+    }
+
+    .about{
+        font-size: 15px;
+    }
+
+    .ab{
+        font-size: 15px;
+    }
+
+    .mentors__text{
+        font-size: 20px;
+    }
+    .st{
+        display: inline-block;
+        font-size: 30px;
+    }
+    .SibFU{
+        font-size: 20px;
+    }
+
+
+    .autors{
+        display: block;
+        text-align: center;
+    }
+    .mentors{
+        display: block;
+        text-align: center;
+    }
+
+    .SlavaTTT{
+        margin-bottom: 20px!important;
+        margin: 0 auto;
+    }
+    .NikitaTTT{
+        margin-bottom: 20px!important;
+        margin: 0 auto;
+    }
+    .PavelTTT{
+        margin: 0 auto;
+    }
+    .MaximTTT{
+        margin: 0 auto;
+    }
 }
