@@ -47,6 +47,11 @@ canvas {
     font-family: 'Fira', sans-serif;;
 }
 html{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     scroll-behavior: smooth;
 }
 a{
@@ -97,6 +102,7 @@ header{
 }
 
 .for_student{
+    pointer-events: none;
     z-index: 1;
     text-align: center;
     position: relative;
