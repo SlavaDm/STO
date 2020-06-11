@@ -253,7 +253,7 @@ header{
 
 footer {
     width: 100%;
-    height: 220px;
+    height: 250px;
     text-align: center;
     background-color: #ededed;
 }
@@ -355,7 +355,7 @@ footer a:hover{
     }
 
     footer{
-        height: 160px;
+        height: 190px;
     }
 
 
